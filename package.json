@@ -2,15 +2,7 @@
   "name": "index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "bundler": "^0.8.0",
-    "parcel": "^2.5.0"
-  },
-  "devDependencies": {
-    "cssnano": "^5.1.7",
-    "postcss": "^8.4.13"
-  },
+  "main": "mainjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/mintercode/todoapp/issues"
   },
-  "homepage": "https://github.com/mintercode/todoapp#readme"
+  "homepage": "https://github.com/mintercode/todoapp#readme",
+  "devDependencies": {
+    "bundler": "^0.8.0",
+    "cssnano": "^5.1.7",
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.13"
+  }
 }
